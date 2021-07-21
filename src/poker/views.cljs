@@ -48,7 +48,7 @@
                    :height "20px"
                    :model name                                       
                    :on-change #(re-frame/dispatch [::events/update % :players sid :name])] ;previously i had seperate event handlers for updating values in app-db but i made it generic? good idea?
-                  [re-com/gap :size "10px"]
+                  [re-com/gap :size "11px"]
                   [box
                    :child (str "Buy-in $")]
                   [input-text

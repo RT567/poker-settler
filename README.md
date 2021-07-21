@@ -1,5 +1,17 @@
 # poker
 
+Helps determine who should transfer who money after a game of poker.
+
+Does so in a minimised number of transfers (not sure if it is always optimal, needs testing).
+
+Enter information into 4 or more players boxes for realistic results.
+
+Assumes you are playing tournament poker such that there are placments (1st 2nd 3rd) and you play until one person holds all the chips.
+
+Doesn't give outputs unless inputs are all valid.
+
+# Everything below here is default README from the re-frame template
+
 A [re-frame](https://github.com/day8/re-frame) application designed to ... well, that part is up to
 you.
 
